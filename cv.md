@@ -6,10 +6,10 @@
 - LinkedIn: [Palina Pryhazhayeva](https://www.linkedin.com/in/polina-dev/)
 - Discord server user: [Polina (@royalehoneybadger)](https://discordapp.com/users/vibing-bageta)
 
-## Краткая информация о себе
+## Summary
+>Aspiring student ready to take on new opportunities and challenges in order to launch my career as a Front-End developer. I'm on my 2nd year of Bachelor's studies having experience in areas of software development, network/administration, project management. Through self study, I lay ground work to excel in the job market. 
 
-
-## Навыки
+## Skills
 - Языки программирования: список языков
 - Фреймворки: список фреймворков
 - Методологии: список методологий
