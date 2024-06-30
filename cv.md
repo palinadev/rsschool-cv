@@ -20,12 +20,14 @@
 Приведите примеры вашего кода или ссылки на репозитории с проектами.
 
 ## Working Experience
-- **Проект 1: Название проекта**
-  - Описание проекта и использованные навыки.
-  - Ссылка на исходный код: [GitHub](ссылка)
-- **Проект 2: Название проекта**
-  - Описание проекта и использованные навыки.
-  - Ссылка на исходный код: [GitHub](ссылка)
+- **IT department trainee**
+    - Project support in the department.
+    - Administrative support in __Citrix__, __Active  Directory__.
+    - Data processing in __SAP__, __Palstat__, __MS Office__.
+    - Translation of technical documentation.
+    - Preparation of presentations.
+    - Support of individual users.
+
 
 ## Education
 - College of Polytechnics Jihlava
