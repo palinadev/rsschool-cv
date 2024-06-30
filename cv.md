@@ -28,10 +28,17 @@
   - Ссылка на исходный код: [GitHub](ссылка)
 
 ## Education
-- Учебное заведение: название учебного заведения
-  - Специализация: ваша специализация
-  - Год окончания: год окончания обучения
-- Курсы и тренинги: список пройденных курсов и тренингов
+- College of Polytechnics Jihlava
+  - Applied Informatics
+  - 2022 - 2025 ***(Expected)***
+### Programs & Courses
+- Blended Intensive Program:
+    - Blockchain and Finance
+    - 2023, Leuven, BG
+
+- Blended Intensive Program:
+    - Finance Sumulation Game
+    - 2024, Riga, LV
 
 ## Languages
 - Russian:     ***native***
