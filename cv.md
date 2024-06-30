@@ -15,8 +15,47 @@
 - ***Project Tracking***: Jira, Scrum Desk
 - ***DB***: SQL, CRUD, MongoDB, API, Postman
 - ***OS***: Windows, Linux, iOS
+
+
 ## Code Snippets
-Приведите примеры вашего кода или ссылки на репозитории с проектами.
+
+**Main functionality positive test**
+
+***Put in order for funeral***
+
+```
+describe('Main functionality test', function(){
+
+it('Positive form test [T-01P]' , function(){
+
+    cy.visit('https://pohrebbezobradu.testovaci-stranka.cz/');
+
+    // Customer Form
+    cy.get('#name').type('Antonina');
+    cy.get('#surname').type('Sokolova');
+    cy.get('#adress').type('U Křížku 992, pokoj č. 34, Križany, 463 53');
+    cy.get('#relationship').type('Bratř'); 
+    cy.get('#tel').type('720496543'); 
+    cy.get('#email').type('animetianochka@gmail.com'); 
+
+
+    // Deceased Form
+    cy.get('#name2').type('Jiří'); 
+    cy.get('#surname2').type('Houba'); 
+    cy.get('#place2').type('Nové Město 1919/45, pokoj č. 234, Ledec Nad Sázavou, 584 01');
+
+    cy.pause();
+
+    // cy.get('#birtdate').type('01/01/1970');
+    // cy.get('#deathdate').type('01/01/2020');  
+
+    cy.get('#place3').type('Nemocnice 3');
+    cy.get('.btn').click();
+
+    cy.contains('p', 'Děkujeme za odeslání formuláře').should('be.visible');
+
+});
+```
 
 ## Working Experience
 - **IT department trainee**
