@@ -4,6 +4,7 @@
 - Email: polina.p@gmail.com
 - Mobile: +77777777
 - LinkedIn: [Palina Pryhazhayeva](https://www.linkedin.com/in/polina-dev/)
+- Discord server user: [Polina (@royalehoneybadger)](https://discordapp.com/users/vibing-bageta)
 
 ## Краткая информация о себе
 
