@@ -10,12 +10,11 @@
 >Aspiring student ready to take on new opportunities and challenges in order to launch my career as a Front-End developer. I'm on my 2nd year of Bachelor's studies having experience in areas of software development, network/administration, project management. Through self study, I lay ground work to excel in the job market. 
 
 ## Skills
-- Языки программирования: список языков
-- Фреймворки: список фреймворков
-- Методологии: список методологий
-- Системы контроля версий: список систем
-- Инструменты разработки: список инструментов
-
+- ***Languages***: C/C++, C#, Java, JS, Python
+- ***Libraries/frameworks***: Cypress, Selenium, Pytest
+- ***Project Tracking***: Jira, Scrum Desk
+- ***DB***: SQL, CRUD, MongoDB, API, Postman
+- ***OS***: Windows, Linux, iOS
 ## Code Snippets
 Приведите примеры вашего кода или ссылки на репозитории с проектами.
 
@@ -34,11 +33,11 @@
   - Applied Informatics
   - 2022 - 2025 ***(Expected)***
 ### Programs & Courses
-- Blended Intensive Program:
+1. Blended Intensive Program:
     - Blockchain and Finance
     - 2023, Leuven, BG
 
-- Blended Intensive Program:
+2. Blended Intensive Program:
     - Finance Sumulation Game
     - 2024, Riga, LV
 
