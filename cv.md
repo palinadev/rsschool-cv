@@ -17,7 +17,7 @@
 - ***OS***: Windows, Linux, iOS
 
 
-## Code Snippets
+## Code Snippet
 
 **Main functionality positive test**
 
