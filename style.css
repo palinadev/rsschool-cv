@@ -1,26 +1,46 @@
-/*  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    border: 1px black solid;
-} */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     min-height: 100vh;
-    background-color: #7a7676;
-    border: 1px solid greenyellow;
+    background-color: #d0e5e2;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
 
+h1,h2 {
+    font-family: "DM Serif Display", serif;
+}
+
+p, ul, a {
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #4A4860;
+    background: #d0e5e2;
+    box-shadow: 0px 4px 0px 0px #3f6d66;
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+}
+
 .navbar {
+    background-color: #4A4860;
     display: flex;
     justify-content: space-around;
-    background-color: #f4f4f4;
     padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
 }
 
 .about-me {
@@ -70,18 +90,34 @@ body {
 }
 
 
-.code-example {
+ .code-example {
     flex-basis: 25%;
     text-align: center;
     margin: 0 auto;
 }
+
+pre code {
+    /* background-color: #eee; */
+    /* border: 1px solid #999; */
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
 
 .projects-links {
     display: flex;
     justify-content: space-evenly;
 }
 
+.project-demo:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Shadow on hover */
+}
+
 .project-demo {
+    background-size: cover; /* Ensure the image covers the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
     flex: 1;
     background-color: #f0f0f0;
     padding: 20px;
@@ -89,8 +125,30 @@ body {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 200px; /* Set a specific width */
-    height: 200px; /* Set a specific height */
+    width: 274px; /* Set a specific width */
+    height: 131px; /* Set a specific height */
+    transition: transform 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+
+#project-1{
+    background-image: url('res/img/movie-lab.jpg');
+}
+
+#project-2{
+    background-image: url('res/img/image-gallery.jpg');
+}
+
+#project-3{
+    background-image: url('res/img/todo-list.jpg');
+}
+
+.project-title {
+    margin-bottom: 10px; /* Space between the title and project demo */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
 }
 
 
