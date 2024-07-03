@@ -5,22 +5,25 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <title>CV 3</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <a href=""><p></p>About Me</a>
-            <a href=""><p></p>Contact me</a>
-            <a href=""><p></p>Skills</a>
-            <a href=""><p></p>Languages</a>
-            <a href=""><p></p>Education</a>
-            <a href=""><p></p>Code Sample</a>
-            <a href=""><p></p>Projects</a>
+            <a href="#about-me"><p></p>About Me</a>
+            <a href="#contact-me"><p></p>Contact me</a>
+            <a href="#skills"><p></p>Skills</a>
+            <a href="#languages"><p></p>Languages</a>
+            <a href="#education"><p></p>Education</a>
+            <a href="#code-sample"><p></p>Code Sample</a>
+            <a href="#projects"><p></p>Projects</a>
         </nav>
     </header>
     <main>
-        <div class="about-me">
+        <div class="about-me" id="about-me">
             <div class="prof-pic">
                 <img  src="res/img/profile.jpg" alt="Palina-Pryhazhayeva-picture">
             </div>
@@ -30,7 +33,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="info">
+            <div class="info" id="contact-me">
                 <h2>Contact Me</h2>
                 <div>
                     <ul>
@@ -41,7 +44,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="info">
+            <div class="info" id="skills">
                 <h2>Skills</h2>
                 <div>
                     <ul>
@@ -53,7 +56,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="info">
+            <div class="info" id="languages">
                 <h2>Languages</h2>
                 <div>
                     <ul>
@@ -63,31 +66,44 @@
                     </ul>
                 </div>
             </div>
-            <div class="info">
+            <div class="info" id="education">
                 <h2>Education</h2>
                 <div>
                     <ul>
-                        <li>Russian: native</li>
-                        <li>English: B2-C1</li>
-                        <li>Czech: B2-C1</li>
+                        <h3>College of Polytechnics Jihlava</h3>
+                        <li>2022 - 2025 <i>(expected)</i></li>
+                        <h3>School named after José Martí</h3>
+                        <li>2010 - 2021</li>
                     </ul>
                 </div>
             </div>
-            <div class="code-example">
+            <div class="code-example" id="code-sample">
                 <h2>Code Sample</h2>
-                <p>codefgjkegkej</p>
+                <pre>
+                    <code>
+                    function numberToString(num) {
+                    var str = num.toString();
+                    console.log(`${str} --> '${str}'`);
+                  }
+
+                  numberToString(67);
+                    </code>
+                </pre>
             </div>
         </div>
-        <div class="projects-links">
-            <a href=""><div class="project-demo">
-                <p>Project</p>
-            </div></a>
-            <a href=""><div class="project-demo">
-                <p>Project</p>
-            </div></a>
-            <a href=""><div class="project-demo">
-                <p>Project</p>
-            </div></a>
+        <div class="projects-links" id="projects">
+            <a href="https://royalehoneybadger.github.io/movie-lab/">
+                <p class="project-title">Project Movie Search</p>
+                <div class="project-demo" id="project-1"></div>
+            </a>
+            <a href="https://royalehoneybadger.github.io/img-gallery/">
+                <p class="project-title">Project Image Gallery</p>
+                <div class="project-demo" id="project-2"></div>
+            </a>
+            <a href="https://royalehoneybadger.github.io/todolist/">
+                <p class="project-title">Project To-Do List</p>
+                <div class="project-demo" id="project-3"></div>
+            </a>
         </div>
     </main>
     <footer>
