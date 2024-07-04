@@ -97,8 +97,7 @@ p, ul, a {
 }
 
 .container-code {
-    display: flex;
-    justify-content: center;
+    justify-content:center !important;
 }
 
 
