@@ -88,6 +88,11 @@ p, ul, a {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.container-code {
+    display: flex;
+    justify-content: center;
+}
+
 
  /* .code-example {
     flex-basis: 25%;
