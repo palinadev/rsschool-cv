@@ -80,9 +80,8 @@ p, ul, a {
     text-align: center;
 }
 
-.info,
-.code-example {
-    flex: 1 1 200px; /* Equal width for all elements */
+.info {
+    flex: 1 1 150px; /* Equal width for all elements */
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -90,11 +89,11 @@ p, ul, a {
 }
 
 
- .code-example {
+ /* .code-example {
     flex-basis: 25%;
     text-align: center;
     margin: 0 auto;
-}
+} */
 
 pre code {
     /* background-color: #eee; */
