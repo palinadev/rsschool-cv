@@ -181,3 +181,84 @@ footer {
     height: 30px;
 }
 
+@media (min-width: 576px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .projects-links {
+        flex-direction: column;
+    }
+
+    .project-demo {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-me {
+        flex-direction: row;
+        align-items: center;
+        gap: 70px; /* Space between the profile picture and the text */
+    }
+
+    .prof-pic img {
+        width: 200px; /* Adjust the width of the profile picture */
+    }
+
+    .about-me-text h1 {
+        font-size: 50px;
+    }
+
+    .about-me-text p {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 70px;
+        padding: 70px 0;
+    }
+
+    .projects-links {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .project-demo {
+        width: 274px; /* Set a specific width */
+        height: 131px; /* Set a specific height */
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 10px 70px;
+    }
+
+    .project-demo {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 0 100px;
+    }
+
+    .project-demo {
+        width: 350px;
+        height: 250px;
+    }
+}
+
